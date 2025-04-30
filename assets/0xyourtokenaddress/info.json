@@ -1,0 +1,14 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 6,
+  "description": "Tether USD (USDT) is a stable-value experimental token deployed for testing liquidity mechanics and token metadata registration. Designed to simulate a real-world stablecoin environment with strict supply, transfer limits, and expiry behavior, this token is ideal for non-financial demonstration purposes only.",
+  "website": "https://alex-ferrard.github.io",
+  "status": "active",
+  "links": [
+    {
+      "name": "github",
+      "url": "https://github.com/alex-ferrard"
+    }
+  ]
+}
