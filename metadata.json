@@ -1,0 +1,10 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 6,
+  "description": "Tether USD is an independent stablecoin on TRON, not affiliated with or endorsed by Tether Limited or the original USDT. Built with full transfer compatibility and no trading enabled by default to prevent manipulation in low-liquidity phases.",
+  "website": "https://melinna-carsons.github.io/usdt-token-metadata/",
+  "telegram": "https://t.me/yourchannel",
+  "twitter": "https://twitter.com/yourproject",
+  "email": "info@yourdomain.com"
+}
