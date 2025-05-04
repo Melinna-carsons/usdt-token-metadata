@@ -1,1 +1,1 @@
-# usdt-token-metadata
+# Tether USD
