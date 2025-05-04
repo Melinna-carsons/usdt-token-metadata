@@ -2,59 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YourToken | Official Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>USDT Test Token</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+  <link rel="icon" href="assets/contractaddress/logo.png" type="image/png" />
 </head>
 <body>
   <header>
-    <div class="logo-container">
-      <img src="assets/0xyourtokenaddress/logo.png" alt="Logo" class="logo" />
-      <h1>YourToken</h1>
+    <div class="container header-wrapper">
+      <img src="assets/contractaddress/logo.png" alt="Token Logo" class="logo"/>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Token Info</a></li>
+          <li><a href="#">Metadata</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#metadata">Metadata</a></li>
-        <li><a href="#contract">Smart Contract</a></li>
-        <li><a href="#footer">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <section class="hero">
-    <h2>Official Token Portal</h2>
-    <p>This is the official token metadata and contract information hub.</p>
-  </section>
+  <main class="container">
+    <section class="hero">
+      <h1>Welcome to the USDT Test Token</h1>
+      <p>This token mimics the functionality and structure of major stablecoins like Tether (USDT), created for testing and educational purposes only.</p>
+    </section>
 
-  <section id="overview">
-    <h2>Token Overview</h2>
-    <p><strong>Name:</strong> Tether USD</p>
-    <p><strong>Symbol:</strong> USDT</p>
-    <p><strong>Decimals:</strong> 6</p>
-    <p><strong>Network:</strong> TRON (TRC-20)</p>
-  </section>
+    <section class="details">
+      <h2>Token Details</h2>
+      <ul>
+        <li><strong>Name:</strong> USDT Test Token</li>
+        <li><strong>Symbol:</strong> USDT</li>
+        <li><strong>Contract Address:</strong> <code>0xYourContractAddress</code></li>
+      </ul>
+      <a href="assets/contractaddress/info.json" target="_blank">View Token Info</a> |
+      <a href="metadata.json" target="_blank">View Metadata</a>
+    </section>
 
-  <section id="metadata">
-    <h2>Metadata</h2>
-    <p><strong>View JSON:</strong> 
-      <a href="metadata.json" target="_blank">metadata.json</a>
-    </p>
-    <p><strong>Logo:</strong></p>
-    <img src="assets/0xyourtokenaddress/logo.png" alt="Token Logo" width="100" />
-  </section>
+    <section class="disclaimer">
+      <p class="small-text">This is a test token and does not represent real currency or assets. Do not trade or use it on mainnet platforms.</p>
+    </section>
+  </main>
 
-  <section id="contract">
-    <h2>Smart Contract</h2>
-    <p>Official Contract Address:</p>
-    <code id="contractAddress">TP123abc456...xyz</code>
-    <button onclick="copyAddress()">Copy Address</button>
-  </section>
-
-  <footer id="footer">
-    <p>This site is for testing purposes only. It is not associated with the real Tether organization.</p>
-    <p>&copy; 2025 YourToken Project</p>
+  <footer>
+    <div class="container footer-wrapper">
+      <p>© 2025 USDT Test Token Project. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
