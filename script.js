@@ -8,15 +8,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Copy Contract Address to Clipboard
-function copyAddress() {
-  const contractCode = document.getElementById("contractAddress").textContent;
-  navigator.clipboard.writeText(contractCode)
-    .then(() => alert("Contract address copied to clipboard!"))
-    .catch(err => alert("Failed to copy address."));
+// Mobile menu toggle (if added later)
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.querySelector("nav ul");
+
+if (menuToggle) {
+  menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
 }
 
-// Fade-in Animation on Scroll
+// Fade-in animation on scroll
 const faders = document.querySelectorAll(".fade-in");
 
 const appearOptions = {
