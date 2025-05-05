@@ -5,19 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>USDT Test Token</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+  <link rel="icon" href="assets/0xyourtokenaddress/logo.png" type="image/png" />
 </head>
 <body>
   <header>
     <div class="container header-wrapper">
       <img src="assets/0xyourtokenaddress/logo.png" alt="Token Logo" class="logo"/>
-      <h1>USDT Test Token</h1>
       <nav>
         <ul>
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#metadata">Metadata</a></li>
-          <li><a href="#contract">Smart Contract</a></li>
-          <li><a href="#footer">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Token Info</a></li>
+          <li><a href="#">Metadata</a></li>
+          <li><a href="#">GitHub</a></li>
         </ul>
       </nav>
     </div>
@@ -25,46 +24,30 @@
 
   <main class="container">
     <section class="hero">
-      <h2>Official Token Portal</h2>
-      <p>This is the official token metadata and contract information hub.</p>
+      <h1>Welcome to the Tether USD</h1>
+      <p>This token mimics the functionality and structure of major stablecoins like Tether (USDT), created for testing and educational purposes only.</p>
     </section>
 
-    <section id="overview">
-      <h2>Token Overview</h2>
+    <section class="details">
+      <h2>Token Details</h2>
       <ul>
         <li><strong>Name:</strong> Tether USD</li>
         <li><strong>Symbol:</strong> USDT</li>
-        <li><strong>Decimals:</strong> 6</li>
-        <li><strong>Network:</strong> TRON (TRC-20)</li>
+        <li><strong>Contract Address:</strong> <code>Address contract</code></li>
       </ul>
-    </section>
-
-    <section id="metadata">
-      <h2>Token Metadata</h2>
-      <p><strong>View JSON:</strong> 
-        <a href="metadata.json" target="_blank">metadata.json</a>
-      </p>
-      <p><strong>Logo:</strong></p>
-      <img src="assets/0xyourtokenaddress/logo.png" alt="Token Logo" width="100" />
-    </section>
-
-    <section id="contract">
-      <h2>Smart Contract</h2>
-      <p>Official Contract Address:</p>
-      <code id="contractAddress">address contract</code>
-      <button onclick="copyAddress()">Copy Address</button>
-      <p><a href="https://nile.tronscan.org/#/contract/your_contract_address_here" target="_blank">View on Tronscan</a></p>
+      <a href="assets/0xyourtokenaddress/info.json" target="_blank">View Token Info</a> |
+      <a href="metadata.json" target="_blank">View Metadata</a>
     </section>
 
     <section class="disclaimer">
-      <h2>Disclaimer</h2>
-      <p>This is a test token and does not represent real currency or assets. Do not trade or assume real value. Always verify contract sources.</p>
+      <p class="small-text">This is a test token and does not represent real currency or assets. Do not trade or use it on mainnet platforms.</p>
     </section>
   </main>
 
-  <footer id="footer">
-    <p>© 2025 USDT Test Token Project. All rights reserved.</p>
-    <p>Visit our <a href="https://github.com/Melinna-carsons/usdt-token-metadata" target="_blank">GitHub Repo</a></p>
+  <footer>
+    <div class="container footer-wrapper">
+      <p>© 2025 USDT Test Token Project. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
