@@ -25,29 +25,46 @@
   </header>
 
   <main class="container">
-    <section id="about" class="hero">
+    <section class="hero">
       <h1>Welcome to the Tether USD</h1>
       <p>This token mimics the functionality and structure of major stablecoins like Tether (USDT), created for testing and educational purposes only.</p>
     </section>
 
-    <section id="token-info" class="details">
-      <h2>About</h2>
-      <p>This project is developed by a team dedicated to blockchain experimentation and education. While the name and symbol resemble Tether USD (USDT), the token is designed for demonstration purposes only and does not intend to mislead or cause confusion. We are committed to transparency and ethical use.</p>
+    <section id="about" class="hero">
+        <p>
+    This project is built by an independent developer and a small team committed to testing, education, and open-source collaboration in blockchain.
+    <br><br>
+    While the token uses the same name and symbol as Tether USD (USDT), and a modified logo for test purposes, it is <strong>not affiliated with Tether Ltd.</strong>
+    <br><br>
+    The goal is to learn, experiment, and share knowledge about token deployment, metadata registration, and decentralized finance tools. No funds are being solicited, and this token is <strong>not intended for trading or real financial use</strong>.
+  </p>
     </section>
 
     <section id="token-info" class="details">
-      <h2>Token Information</h2>
-      <ul>
-        <li><strong >Name:</strong> Tether USD</li>
-        <li><strong >Symbol:</strong> USDT</li>
-        <li><strong >Contract Address:</strong> <code>0xyourcontractaddress</code></li>
-      </ul>
-      <a href="assets/0xyourtokenaddress/info.json" target="_blank">View Token Info</a>
+  <h2>Token Information</h2>
+  <ul>
+    <li><strong>Name:</strong> Tether USD</li>
+    <li><strong>Symbol:</strong> USDT</li>
+    <li><strong>Decimals:</strong> 18</li>
+    <li><strong>Contract Address:</strong> 
+      <span id="contractAddress">0xYourRealMainnetContractAddress</span>
+      <button onclick="copyAddress()">Copy</button>
+      <a href="assets/0xyourtokenaddress/info.json" target="_blank">View Full Token Info</a>
+    </li>
+  </ul>
+
     </section>
 
     <section id="metadata" class="details">
-      <h2>Metadata</h2>
-      <p>All relevant metadata regarding the token including logo, decimals, and standards are available for validators, explorers, and wallets:</p>
+  <h2>Token Metadata</h2>
+  <p>
+    All metadata files (including <code>metadata.json</code>, logo, and <code>info.json</code>) are publicly available for transparency and integration. You can view them below:
+  </p>
+  <ul>
+    <li><a href="metadata.json" target="_blank">View metadata.json</a></li>
+    <li><a href="assets/contractaddress/info.json" target="_blank">View info.json</a></li>
+    <li><a href="assets/contractaddress/logo.png" target="_blank">View Logo</a></li>
+  </ul>
       <a href="metadata.json" target="_blank">Download Metadata</a>
     </section>
 
@@ -55,9 +72,11 @@
 
 
     <section id="github" class="details">
-      <h2>GitHub Repository</h2>
-      <p>Our smart contract and website source code are open-source and available for review:</p>
-      <a href="https://github.com/your-repo" target="_blank">Visit GitHub</a>
+     <h2>GitHub Repository</h2>
+      <p>
+        All contract code and website source are hosted on GitHub.
+      </p>
+      <a href="https://github.com/yourusername/usdt-token-metadata" target="_blank">Visit GitHub Repo</a>
     </section>
 
     <section class="disclaimer">
