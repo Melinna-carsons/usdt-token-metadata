@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,19 +7,18 @@
   <title>USDT Test Token</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
-
   <link rel="icon" href="assets/0xyourtokenaddress/logo.png" type="image/png" />
 </head>
 <body>
   <header>
     <div class="container header-wrapper">
-      <img src="assets/0xyourtokenaddress/logo.png" alt="Token Logo" class="logo"/>
+      <img src="assets/0xyourtokenaddress/logo.png" alt="Token Logo" loading="lazy" class="logo"/>
       <nav>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Token Info</a></li>
-          <li><a href="#">Metadata</a></li>
-          <li><a href="#">GitHub</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#token-info">Token Info</a></li>
+          <li><a href="#metadata">Metadata</a></li>
+          <li><a href="#github">GitHub</a></li>
         </ul>
       </nav>
     </div>
@@ -30,15 +30,31 @@
       <p>This token mimics the functionality and structure of major stablecoins like Tether (USDT), created for testing and educational purposes only.</p>
     </section>
 
-    <section class="details">
-      <h2>Token Details</h2>
+    <section id="about" class="details">
+      <h2>About</h2>
+      <p>This project is developed by a team dedicated to blockchain experimentation and education. While the name and symbol resemble Tether USD (USDT), the token is designed for demonstration purposes only and does not intend to mislead or cause confusion. We are committed to transparency and ethical use.</p>
+    </section>
+
+    <section id="token-info" class="details">
+      <h2>Token Information</h2>
       <ul>
         <li><strong class="fade-in">Name:</strong> Tether USD</li>
         <li><strong class="fade-in">Symbol:</strong> USDT</li>
-        <li><strong class="fade-in">Contract Address:</strong> <code>Address contract</code></li>
+        <li><strong class="fade-in">Contract Address:</strong> <code>0xyourcontractaddress</code></li>
       </ul>
-      <a href="assets/0xyourtokenaddress/info.json" target="_blank">View Token Info</a> |
-      <a href="metadata.json" target="_blank">View Metadata</a>
+      <a href="assets/0xyourtokenaddress/info.json" target="_blank">View Token Info</a>
+    </section>
+
+    <section id="metadata" class="details">
+      <h2>Metadata</h2>
+      <p>All relevant metadata regarding the token including logo, decimals, and standards are available for validators, explorers, and wallets:</p>
+      <a href="metadata.json" target="_blank">Download Metadata</a>
+    </section>
+
+    <section id="github" class="details">
+      <h2>GitHub Repository</h2>
+      <p>Our smart contract and website source code are open-source and available for review:</p>
+      <a href="https://github.com/your-repo" target="_blank">Visit GitHub</a>
     </section>
 
     <section class="disclaimer">
