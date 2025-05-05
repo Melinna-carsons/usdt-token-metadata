@@ -10,6 +10,16 @@ document.querySelectorAll('nav a').forEach(link => {
   });
 });
 
+function copyToClipboard(elementId) {
+  const text = document.getElementById(elementId).textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    alert("Copied to clipboard!");
+  }).catch(err => {
+    console.error("Failed to copy: ", err);
+  });
+}
+
+
 // Lazy load animation on scroll
 const fadeElements = document.querySelectorAll('.fade-in');
 
