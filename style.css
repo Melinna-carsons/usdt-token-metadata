@@ -110,15 +110,6 @@ nav a {
 }
 
 
-html, body {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-}
-
-section {
-  scroll-snap-align: start;
-}
-
 
 .details li {
   margin-bottom: 8px;
