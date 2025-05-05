@@ -49,7 +49,11 @@
     <li><strong>Decimals:</strong> 6</li>
     <li><strong>Contract Address:</strong> 
       <span id="contractAddress">contract address</span>
-      <button onclick="copyAddress()">Copy</button>
+     <pre>
+  <code id="contract-address">0x1234...abcd</code>
+  <button class="copy-btn" onclick="copyToClipboard('contract-address')">Copy</button>
+</pre>
+
       <a href="assets/0xyourtokenaddress/info.json" target="_blank">View Full Token Info</a>
     </li>
   </ul>
