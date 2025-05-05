@@ -27,6 +27,40 @@ body {
   background-color: #0072a3;
 }
 
+/* About Section */
+.about {
+  padding: 40px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  color: #333;
+  text-align: justify;
+}
+
+.about strong {
+  color: #000;
+  font-weight: 600;
+}
+
+.about em {
+  font-style: italic;
+  color: #555;
+}
+
+
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
