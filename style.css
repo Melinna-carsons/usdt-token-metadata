@@ -15,8 +15,9 @@ body {
 
 .fade-in {
   opacity: 0;
-  transform: translateY(15px);
-  transition: all 0.6s ease;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+  will-change: opacity, transform;
 }
 
 .fade-in.visible {
@@ -108,6 +109,17 @@ nav a {
   margin-bottom: 15px;
 }
 
+
+html, body {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+
 .details li {
   margin-bottom: 8px;
 }
@@ -140,4 +152,44 @@ footer {
   padding: 20px 0;
   text-align: center;
   font-size: 0.9rem;
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .header-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .details h2 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .logo {
+    height: 35px;
+  }
+
+  footer {
+    font-size: 0.85rem;
+  }
+}
+
+
 }
