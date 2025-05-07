@@ -3,79 +3,150 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tether USD Whitepaper</title>
+  <title>Tether USD (USDT) Whitepaper</title>
   <style>
     body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 40px;
+      line-height: 1.7;
+      background-color: #fdfdfd;
+      color: #222;
+    }
+    h1, h2 {
+      color: #1a1a1a;
+      border-bottom: 2px solid #eaeaea;
+      padding-bottom: 5px;
+    }
+    h1 {
+      font-size: 2.4em;
+      margin-top: 0;
+    }
+    h2 {
+      font-size: 1.6em;
+      margin-top: 40px;
+    }
+    p {
+      margin: 12px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin: 8px 0;
+    }
+    .container {
+      max-width: 850px;
       margin: 0 auto;
-      padding: 30px;
-      color: #333;
-      background-color: #f9f9f9;
     }
-    h1, h2, h3 {
-      color: #0077cc;
-    }
-    .section {
-      margin-bottom: 40px;
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #555;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>Tether USD (USDT) – Whitepaper</h1>
+  <div class="container">
+    <h1>Tether USD (USDT) - Whitepaper</h1>
 
-  <div class="section">
-    <h2>1. Introduction</h2>
+    <h2>Introduction</h2>
     <p>
-      Tether USD (USDT) is a TRC20-compliant stablecoin aiming to bring security, transparency, and ease of use to digital payments on the Tron blockchain.
-      Inspired by the success of other stablecoins, Tether USD provides a decentralized yet policy-governed digital asset, ensuring usability in everyday transactions.
+      Tether USD (USDT) is a stable, utility-focused cryptocurrency designed to maintain a consistent value of $1.00 per token. With a total supply of <strong>10 billion tokens</strong>, Tether USD aims to offer a reliable digital representation of fiat value within decentralized ecosystems. The contract is transparent, verifiable, and intentionally non-upgradable to build long-term user trust.
     </p>
-    <p>
-      This project is managed by <strong>Melinna Carsons</strong>, dedicated to creating reliable blockchain infrastructure with practical utility.
-    </p>
-  </div>
 
-  <div class="section">
-    <h2>2. Token Overview</h2>
+    <h2>Token Details</h2>
     <ul>
       <li><strong>Name:</strong> Tether USD</li>
       <li><strong>Symbol:</strong> USDT</li>
       <li><strong>Decimals:</strong> 6</li>
       <li><strong>Total Supply:</strong> 10,000,000,000 USDT</li>
-      <li><strong>Standard:</strong> TRC20</li>
-      <li><strong>Deployer Address:</strong> Owner of initial supply</li>
+      <li><strong>Blockchain:</strong> Tron (TRC-20 Standard)</li>
+      <li><strong>Owner Address:</strong> Publicly available upon deployment</li>
+      <li><strong>Smart Contract Verified:</strong> Yes</li>
+      <li><strong>Upgradability:</strong> Non-upgradable (Immutable source code)</li>
     </ul>
-  </div>
 
-  <div class="section">
-    <h2>3. Features</h2>
-    <ul>
-      <li>Transparent token transfers with open supply and balance tracking</li>
-      <li>Transfer limitations to prevent spam and bots (first 300 receivers)</li>
-      <li>Expiration mechanism with modifiable deadline</li>
-      <li>Blocklist feature to prevent bad actors</li>
-      <li>Owner-controlled trading toggle (emergency controls)</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>4. Roadmap</h2>
-    <ol>
-      <li>✅ Smart Contract Development</li>
-      <li>✅ Website & Metadata Publishing</li>
-      <li>🔄 Token Auto-detection via TronScan</li>
-      <li>🚀 Liquidity Pool Creation & Listing</li>
-      <li>📄 Publish Whitepaper & Marketing Campaign</li>
-    </ol>
-  </div>
-
-  <div class="section">
-    <h2>5. Disclaimer</h2>
+    <h2>Purpose and Vision</h2>
     <p>
-      This token is not officially affiliated with the original Tether (USDT). It is an experimental, community-based project that uses open blockchain infrastructure.
-      Users are advised to exercise caution, read all materials, and only interact with the token if they understand the risks.
+      Tether USD is designed with simplicity and clarity. It’s built for demonstration, educational, and testing purposes, simulating how stablecoins can operate without relying on complex reserve mechanisms or custodians. The token serves as a clean foundation for developers, enthusiasts, and researchers to explore decentralized financial principles.
     </p>
+
+    <h2>Functionality and Security</h2>
+
+    <h3>Smart Contract Features</h3>
+    <ul>
+      <li>Fixed total supply, no minting or burning after deployment</li>
+      <li>Expiration timer for transfer functionality</li>
+      <li>Trading toggle (enabled/disabled by the owner)</li>
+      <li>Transfer limits to prevent massive bot airdrops</li>
+      <li>Blocking of malicious or suspicious addresses</li>
+      <li>No upgradable logic or proxy mechanisms</li>
+    </ul>
+
+    <h3>Owner Controls</h3>
+    <ul>
+      <li>Enable/Disable Trading</li>
+      <li>Update Transfer Limit</li>
+      <li>Update Expiration Date</li>
+      <li>Block/Unblock Wallets</li>
+      <li>Transfer Ownership</li>
+    </ul>
+
+    <h2>Liquidity Strategy</h2>
+    <p>
+      To enable token visibility across wallets and dApps, <strong>initial liquidity</strong> will be added through a decentralized exchange. The pairing rate will be set manually. For example:
+    </p>
+    <blockquote>
+      If 10 USDT tokens are paired with 10 USDT worth of native tokens (e.g., TRX), the price will reflect <strong>$1.00 per USDT</strong>.
+    </blockquote>
+    <p>
+      Wallets and explorers often estimate token value based on the liquidity pool price. This approach ensures that USDT holders see a consistent dollar-equivalent price—even though the actual liquidity is minimal.
+    </p>
+    <p><strong>Disclaimer:</strong> This pricing strategy is common for test tokens and should not be considered financial advice or a valuation method for investment.</p>
+
+    <h2>Metadata and Auto-Detection</h2>
+    <p>
+      To ensure proper <strong>auto-detection in major wallets</strong>:
+    </p>
+    <ul>
+      <li>Metadata such as token name, symbol, decimals, logo, and official website will be <strong>registered on TronScan</strong>.</li>
+      <li>A clean and minimal official website is published with accurate contract information and project overview.</li>
+      <li>Token must be <strong>verified</strong> and held by at least 50 unique wallets to enhance visibility across platforms.</li>
+    </ul>
+
+    <h2>Website and Branding</h2>
+    <p>
+      The official project website includes:
+    </p>
+    <ul>
+      <li>Token information</li>
+      <li>Contract address</li>
+      <li>Verified GitHub repository</li>
+      <li>A PDF version of this whitepaper</li>
+      <li>Transparent disclosure that the token is <strong>not an investment asset</strong></li>
+    </ul>
+
+    <h2>Disclaimer</h2>
+    <p>
+      Tether USD is <strong>not associated with Tether Limited</strong> or any real-world fiat reserves. This token is for educational, experimental, and development purposes only. Users should not assume any monetary value or real-world backing.
+    </p>
+    <p>
+      This project <strong>does not promise returns</strong>, guarantees, or any financial benefit. It is <strong>not designed for trading</strong> or speculative use.
+    </p>
+
+    <h2>Contact & Open Source</h2>
+    <ul>
+      <li><strong>Official Website:</strong> [Insert Your Website Here]</li>
+      <li><strong>GitHub:</strong> [Insert GitHub Repo]</li>
+      <li><strong>Contact:</strong> contact@[yourdomain].com</li>
+      <li><strong>License:</strong> MIT License</li>
+    </ul>
+
+    <div class="footer">
+      &copy; 2025 Tether USD (USDT) | This document is for educational purposes only.
+    </div>
   </div>
 </body>
 </html>
