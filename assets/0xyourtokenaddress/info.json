@@ -4,13 +4,14 @@
   "type": "TRC20",
   "decimals": 6,
   "description": "Tether USD (USDT) is a fixed-supply TRC-20 token deployed for experimental trading, liquidity simulation, and blockchain utility testing. This is not the official Tether token. It mimics standard USDT behavior for demonstration purposes.",
+  "logo": "https://melinna-carsons.github.io/usdt-token-metadata/assets/0xyourtokenaddress/logo.png"
   "website": "https://melinna-carsons.github.io/usdt-token-metadata/",
   "explorer": "https://tronscan.org/#/token/your-token-id",
   "status": "active",
   "links": {
   "github": "https://github.com/melinna-carsons/usdt-token-metadata"
   "x": "@melinnacarsons"
-  "whitepaper": "https://raw.githubusercontent.com/Melinna-carsons/usdt-token-metadata/refs/heads/main/Tether%20USD%20(USDT)%20Whitepaper.pdf"
+  "whitepaper": "https://raw.githubusercontent.com/Melinna-carsons/usdt-token-metadata/refs/heads/main/assets/0xyourtokenaddress/whitepaper.pdf"
     
   }
 }
