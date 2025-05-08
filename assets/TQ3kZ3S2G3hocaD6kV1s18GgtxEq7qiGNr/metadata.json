@@ -4,7 +4,7 @@
   "decimals": 6,
   "description": "Tether USD is an independent stablecoin on TRON, not affiliated with or endorsed by Tether Limited or the original USDT. Built with full transfer compatibility and no trading enabled by default to prevent manipulation in low-liquidity phases.",
   "website": "https://melinna-carsons.github.io/usdt-token-metadata/",
-  "X": "@melinnacarsons",
-  "email": "usdt.free2000@proton.me"
-  "whitepaper": "https://raw.githubusercontent.com/Melinna-carsons/usdt-token-metadata/refs/heads/main/assets/TQ3kZ3S2G3hocaD6kV1s18GgtxEq7qiGNr/whitepaper.pdf"
+  "x": "@melinnacarsons",
+  "email": "usdt.free2000@proton.me",
+  "whitepaper": "https://raw.githubusercontent.com/Melinna-carsons/usdt-token-metadata/main/assets/TQ3kZ3S2G3hocaD6kV1s18GgtxEq7qiGNr/whitepaper.pdf"
 }
